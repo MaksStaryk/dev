@@ -49,4 +49,5 @@ seconds= 4000
 print(seconds//60,"минут")
 print(seconds//3600, "часов")
 print()
+print('ghpt')
 
