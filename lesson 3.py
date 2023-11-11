@@ -54,8 +54,8 @@ print()
 print("task 10*")
 school_classes = {'1a':15, '2a':15, '3a':15, '4a':15, '5a':15, '6a':15, '7a':15, '8a':15, '9a':15, '10a':15}
 print('task 10a')
-child_1a = 5
-school_classes['1a'] += child_1a
+child = 5
+school_classes['1a'] += child
 print(school_classes['1a'])
 print()
 print('task 10б')
