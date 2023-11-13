@@ -69,6 +69,7 @@ print(school_classes['1a'])
 #print()
 #"task 10в"
 #del school_classes['2a']
-#block = school_classes.values[9]
-#print( sum(block))
+#block = school_classes.get[9]
+#block1 = block.values()
+#print( sum(block1))
 
