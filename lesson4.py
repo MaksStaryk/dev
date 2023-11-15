@@ -39,7 +39,7 @@ print()
 print('task 6')
 some_number_6 =  6
 i = 1
-#while i <=6:
+while i <=6:
     #print((pow(i,3)))
     #i +=1
 
