@@ -46,10 +46,10 @@ some_number_6 =  6
 """start task 9"""
 print('start task 9')
 a = 96
-minimum = 0
+minimum = 10
 while a > 0:
     d = a %  10
-    if d > minimum:
+    if d < minimum:
         minimum = d
     a //= 10
     print(minimum)
