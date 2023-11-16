@@ -38,8 +38,18 @@ print()
 ''''task 6'''
 print('task 6')
 some_number_6 =  6
-i = 1
-while i <=6:
+#i = 1
+#while i <=6:
     #print((pow(i,3)))
     #i +=1
 
+"""start task 9"""
+print('start task 9')
+a = 96
+minimum = 0
+while a > 0:
+    d = a %  10
+    if d > minimum:
+        minimum = d
+    a //= 10
+    print(minimum)
