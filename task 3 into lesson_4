@@ -4,3 +4,9 @@ for q in range(1,a+1):
     if q % 2 ==0:
     d +=1
 print(d)
+e = 4
+r = 0
+for w in range(1,e+1)
+    if w % 2 == 0:
+    r += 1
+print(r)
