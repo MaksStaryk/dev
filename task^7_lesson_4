@@ -1,0 +1,9 @@
+a = 5
+d =6
+q = 1
+while q <= 20:
+    a = a*d
+    d +=1
+    q +=1
+    print(a)
+print(a)
