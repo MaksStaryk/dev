@@ -1,3 +1,4 @@
+from functools import reduce
 """task 1"""
 stroka_1 = 'hello world'
 stroka_2 = ' '
@@ -13,6 +14,12 @@ print()
 chislo = int(input('enter (intiger) value: '))
 check = lambda a: print('est chetnost') if a % 2 == 0 else print('net chetnosti')
 checker = check(chislo)
+print()
+"""task 3"""
+your_exit = lambda a: print(f'correct {a}') if a[0].isupper() else print('again')
+stroka = str(input('enter(str) value: '))
+stroka_v2 = ''.join(stroka.split())
+your_exit(stroka_v2)
 print()
 """task 4"""
 def digits(n):
@@ -34,6 +41,13 @@ def is_power(n):
 print(is_power(32))
 print()
 """task 6"""
+from functools import reduce
+my_number = 14623
+my_number_str = str(my_number)
+lst_number = list(map(int, my_number_str))
+print(lst_number)
+summa = reduce((lambda x,y: x + y), lst_number)
+print(summa)
 """task 7"""
 def time(func):
     import time
